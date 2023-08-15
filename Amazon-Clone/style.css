@@ -103,6 +103,7 @@ span {
     background-color: #232f3e;
     display: flex;
     color: white;
+    justify-content: space-evenly;
 }
 .panel-ops p{
     display: inline;
