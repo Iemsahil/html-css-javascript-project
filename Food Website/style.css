@@ -65,6 +65,7 @@ nav {
    width: 25vw;
    height: 100%;
    background-color: none;
+   gap: 1.5vw;
 }
 
 .left-nav a {
@@ -96,7 +97,10 @@ nav {
    width: 12vw;
    height: 5vh;
    border-radius: 5px;
+   padding-left: 1.5vw;
+   gap: 0.5vw;
    background-color: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .search input{
@@ -107,4 +111,67 @@ nav {
 }
 .search i{
    font-size: 1vw;
+}
+.cart {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 2.5vw;
+   height: 2.5vw;
+   background-color: #ff8000;
+   border-radius: 5px;
+   color: #fff;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.left {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 3vh;
+   padding-left: 8.8vw;
+   width: 60%;
+   height: 90%;
+}
+
+.left h1 {
+   font-size: 5vw;
+   color: #333;
+   font-family: Gilroy-Black;
+}
+
+.left h1:nth-child(2) {
+   font-family: Gilroy-Thin;
+}
+
+.left p{
+   width: 35vw;
+   color: #aeaeae;
+}
+
+.left .search {
+   width: 25vw;
+   padding: 1.5vw 1vw;
+   justify-content: space-between;
+}
+
+.left .search input {
+   width: 25vw;
+}
+.left .search i {
+   color: #ff8000de;
+}
+.left button {
+   width: 8vw;
+   padding: 1vw 2vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #ff8000;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+}
+
+.left button:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
